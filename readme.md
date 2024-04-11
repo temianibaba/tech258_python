@@ -66,8 +66,23 @@ else:
 ```
 
 # Loops
-- What
-
+A loop is a sequence of codes/ instructions that are continually repeated until certain conditions are fulfilled, loops are used in a variety of ways. 
+The main two types of loops are for loops and while loops.
+- For loops<br>
+Runs for each item in a range that is decided by the programmer.
 ```python
-
+example = "test"
+for char in example:
+    print(char)
 ```
+- While loops<br>
+This loop runs until a certain condition is fulfilled.
+```python
+i = 0
+while i <=5:
+    print(i)
+    i += 1
+```
+Depending on the situation you would use while over for, or for instead of while. A for loop could not print i until it reaches 5 
+without extensive coding and boundaries.<br>
+Loops can be infinite if not coded properly, this means your code will run forever.

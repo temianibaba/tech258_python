@@ -1,0 +1,22 @@
+# print("Hi, please type your name, age and DOB on the next line.")
+# info = input()
+# print(info)
+# print(f"{name} is {years} years old and {height_cm} cm tall")
+
+print("Hello, I will store your details, please type your first name. ")
+first_name = input()
+print("Please type your last name. ")
+last_name = input()
+print("Please type your age. ")
+age = input()
+print("Please type your DOB. ")
+dob = input()
+print("Please type your house number. ")
+house_number = input()
+print("Please type your street name")
+street_name = input()
+print("Please type your city")
+city = input()
+
+user_details = f"{first_name} {last_name} is {age} years old, was born on {dob} and lives at {house_number} {street_name} {city}"
+print(user_details)

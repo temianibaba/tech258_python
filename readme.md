@@ -1,5 +1,5 @@
 # Tech 258 Python
-Change for demo 123
+
 ## Python. What is it?
 Python is a computer programming language used in modern day to create a plethora
 of different programmes. A key factor of python is that is it a general purpose language!<br>

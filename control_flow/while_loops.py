@@ -8,3 +8,4 @@ while x < 10:
         break
 
 # Without declaring x the code doesn't work. If I didn't include "x += 1" the code would run forever.
+# Break only breaks the loop the program will still continue

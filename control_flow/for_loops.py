@@ -3,8 +3,10 @@ embedded_lists = [[1,2,3],[4,5,6]]
 dict_data = {1: {"name": "Bronson", "money": "$0.05"}, 2: {"name": "Masha", "money": "$3.66"}, 3: {"name": "Roscoe", "money": "$1.14"}}
 
 # for numb in list_data:
-#     print(numb)
-#     print(numb)
+#     print(numb * 2)
+#
+# for embb in embedded_lists:
+#     print(embb)
 #
 # for ince in embedded_lists:
 #     print(ince)
@@ -19,12 +21,16 @@ dict_data = {1: {"name": "Bronson", "money": "$0.05"}, 2: {"name": "Masha", "mon
 #     print(dict_data.values())
 #
 # for value in dict_data.values():
-#     print(value.get("money"))
+#     for val2 in value.values():
+#         print(val2)
 
-for number in list_data:
-    if number < 3 :
-        print("Less than 3")
-    elif number == 3:
-        print("I found 3")
-    else :
-        print("Greater than 3")
+# for value in dict_data.values():
+#     print(value["money"])
+
+# for number in list_data:
+#     if number < 3 :
+#         print("Less than 3")
+#     elif number == 3:
+#         print("I found 3")
+#     else :
+#         print("Greater than 3")

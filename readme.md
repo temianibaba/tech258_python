@@ -83,6 +83,9 @@ while i <=5:
     print(i)
     i += 1
 ```
+
 Depending on the situation you would use while over for, or for instead of while. A for loop could not print i until it reaches 5 
 without extensive coding and boundaries.<br>
 Loops can be infinite if not coded properly, this means your code will run forever.
+
+ 

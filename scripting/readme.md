@@ -76,3 +76,40 @@ print(f"Today's date is: {datetime.datetime.today()}")
 8. Container Orchestration
 9. Security
 10. Cloud Automation
+
+Here's an example of a deployment script:
+```python
+"deploy.reloaded":{
+    "packages": [
+        {
+            "button": True,
+            "name": "bb-core",
+            "description": "bb-core for bb-400",
+            "files": [
+                "**/*"
+            ]
+            "deploy0nChange": True,
+            "exclude": [
+                "**/__pycache__/**",
+                "examples/**",
+            ]
+        }
+    ]
+    "targets": [
+        {
+            "type": "sftp",
+            "name": "BB-400 PP",
+            "description": "BB-CORE Folder",
+            "dir": "/usr/share/brainboxes/bb-core",
+            "host": "192.168.0.60",
+            "port": 22,
+            "user": "bb",
+            "password": "00e8",
+            "modes": {
+                "/usr/share/brainboxes/bb-core/bb-core": 755,
+                "/usr/share/brainboxes/bb-core/bb-core/*": 755,
+            }
+        }
+    ]
+}
+```

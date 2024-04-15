@@ -1,11 +1,11 @@
 # Standard library
 
 # Standard library consists of many modules and packages that are very useful, and were considered as default
-
-import random
-
-print(random.random())
-print(random.randrange(1, 10))
+#
+# import random
+#
+# print(random.random())
+# print(random.randrange(1, 10))
 
 # import math
 #
@@ -16,7 +16,6 @@ print(random.randrange(1, 10))
 # print(f"remainder from 1/5: {math.remainder(1,5)}")
 
 # import os
-#
 #
 # # returning current working directory
 # working_dir = os.getcwd()
@@ -29,8 +28,8 @@ print(random.randrange(1, 10))
 # # cpu cores
 # cpu_cores = os.cpu_count()
 # print(f"Amount of CPUs: {cpu_cores}")
-
-# making/remove directory
+#
+# # making/remove directory
 # os.mkdir("test_dir")
 # os.rmdir("test_dir")
 
@@ -39,10 +38,10 @@ import sys
 # # print(f"Current path: {sys.path}")
 # print(sys.version)
 
-import datetime
+# import datetime
 #
 # print(f"Today's date is: {datetime.datetime.today()}")
-
+#
 # import builtins
 #
 # for name in dir(builtins):

@@ -11,7 +11,7 @@ machine code and then being run.
 
 ## Standard packages in python
 Here are some listed packages that are default with python. Overtime they were used so much it was considered installing 
-python with these packages
+python with these packages. It is important to note that all of these packages have easily accessible information about them online.
 
 1. Random
 ```python
@@ -22,7 +22,49 @@ print(random.randrange(1, 10))
 This library allows you to create random numbers, after importing the library, the first print statement prints a number 
 in between 0-1, and the second print statement prints a number from 0-10 not including 10
 
+2.Math
+```python
+import math
 
+num_float = 23.66
+print(math.ceil(num_float)) #roundup
+print(math.floor(num_float)) #round down
+print(math.pi)
+```
+Math allows more complex operations and methods to be used in your code.
+
+3. OS
+```python
+import os
+
+# returning current working directory
+working_dir = os.getcwd()
+print(f"Current working directory is:{working_dir}")
+
+# get user
+username = os.environ.get("USERNAME") or os.environ.get("USER")
+print(f"Username is: {username}")
+
+# cpu cores
+cpu_cores = os.cpu_count()
+print(f"Amount of CPUs: {cpu_cores}")
+
+# making/remove directory
+os.mkdir("test_dir")
+os.rmdir("test_dir")
+```
+This library uses syntax similar to linux, its main use is to execute commands relating to the users operating system.
+Such as: making and removing directories, returning the current directory, returning the number of CPU cores and giving information 
+about the users OS.
+
+4. Datetime <br>
+The final example in this document about scripting is datetime, this gives more methods linking to referencing the date 
+and/or time.
+```python
+import datetime
+
+print(f"Today's date is: {datetime.datetime.today()}")
+```
 ## Python scripts in DevOps
 1. Infrastructure as Code
 2. Continuous Integration

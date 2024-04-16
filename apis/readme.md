@@ -37,13 +37,13 @@ Methods or verbs
 
 ### Request structure
 ![img_1.png](images%2Fimg_1.png)
-<ins>Example<ins>
+<br><ins>Example<ins><br>
 ![img_4.png](images%2Fimg_4.png)
 
 
 ### Response Structure
 ![img_2.png](images%2Fimg_2.png)
-<ins>Example<ins>
+<br><ins>Example<ins><br>
 ![img_3.png](images%2Fimg_3.png)
 
 ### Two important guidelines

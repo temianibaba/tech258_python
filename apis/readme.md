@@ -51,5 +51,5 @@ Methods or verbs
 - ***Stateless vs Stateful***<br>
 This refers to whether an application retains information about the current state of a user's interactions or if it treats each request as an independent, isolated transaction.<br>
 ![img_5.png](images%2Fimg_5.png)<br>
--***Caching***<br>
+- ***Caching***<br>
 Caching is the process of storing copies of files in a cache, or temporary storage location, so that they can be accessed more quickly.

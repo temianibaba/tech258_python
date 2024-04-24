@@ -1,4 +1,14 @@
 # Application Programming Interfaces
+- [Application Programming Interfaces](#application-programming-interfaces)
+  - [Fundamentals](#fundamentals)
+  - [What makes them popular](#what-makes-them-popular)
+  - [Data transfer using APIs](#data-transfer-using-apis)
+  - [Rest API](#rest-api)
+    - [Guidelines](#guidelines)
+    - [HTTP](#http)
+    - [Request structure](#request-structure)
+    - [Response Structure](#response-structure)
+    - [Two important guidelines](#two-important-guidelines)
 
 ## Fundamentals
 An API is a messenger that takes requests and delivers it to a device or software and then returns a response.

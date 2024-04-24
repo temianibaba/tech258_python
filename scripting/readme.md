@@ -1,4 +1,9 @@
 # Scripting
+- [Scripting](#scripting)
+  - [Quick basics on scripting](#quick-basics-on-scripting)
+    - [Interpreting vs Compling](#interpreting-vs-compling)
+  - [Standard packages in python](#standard-packages-in-python)
+  - [Python scripts in DevOps](#python-scripts-in-devops)
 
 ## Quick basics on scripting
 ![Scripting-Language-vs-Programming-Language-300x300.png](images%2FScripting-Language-vs-Programming-Language-300x300.png)

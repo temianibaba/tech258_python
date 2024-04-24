@@ -1,4 +1,14 @@
 # Tech 258 Python
+- [Tech 258 Python](#tech-258-python)
+  - [Python. What is it?](#python-what-is-it)
+  - [Pythons popularity and DevOps](#pythons-popularity-and-devops)
+  - [Venv](#venv)
+  - [Preferred Installer Program](#preferred-installer-program)
+  - [Scripting vs Programming](#scripting-vs-programming)
+  - [Base and inbuilt libraries](#base-and-inbuilt-libraries)
+  - [Examples of the most popular external libraries](#examples-of-the-most-popular-external-libraries)
+- [Age\_checker](#age_checker)
+- [Loops](#loops)
 
 ## Python. What is it?
 Python is a computer programming language used in modern day to create a plethora
@@ -35,8 +45,8 @@ libraries will be on python.
 ## Examples of the most popular external libraries
 External libraries are libraries of code or functions that are available for download to apply to your project. 
 For example Numpy (Numerical python) which performs mathematical operations on lists and Matplotlib which visualises data. 
-
-# age_checker
+** **
+# Age_checker
 
 ```python
 film_rating = input("What's the age rating of the film?")
@@ -88,5 +98,4 @@ while i <=5:
 Depending on the situation you would use while over for, or for instead of while. A for loop could not print i until it reaches 5 
 without extensive coding and boundaries.<br>
 Loops can be infinite if not coded properly, this means your code will run forever.
-
- 
+** **
